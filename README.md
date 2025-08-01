@@ -1,35 +1,56 @@
-# 🌐 Personal Portfolio Website
+# 🌐 Personal Portfolio - Olamide Wahab
 
-Welcome to my personal portfolio website! This project showcases who I am, the skills I’ve acquired, and the projects I’ve built. Designed with modern frontend tools, it's a reflection of my journey as a frontend developer and a digital creator.
+Welcome to my personal portfolio! This project showcases who I am, what I do, and the projects I've built as a frontend developer with a growing interest in full-stack development.
+
+## ✨ About
+
+This portfolio highlights my skills in **HTML**, **CSS**, **JavaScript**, and **React**, with sections dedicated to my background, what excites me about tech, professional interests, and selected projects. It’s fully responsive and designed to provide a smooth user experience across all devices.
 
 ## 🚀 Features
 
-- Fully responsive design across all devices  
-- Smooth navigation and clean UI/UX  
-- Project showcase section with live links and GitHub repositories  
-- Contact form integrated with FormSubmit  
-- Beautiful color palette and modern layout
+- Responsive design for all screen sizes
+- Smooth navigation and clean layout
+- Projects section with brief descriptions
+- Personal insights into my interests and goals
+- Contact section for collaboration or networking
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- [FormSubmit](https://formsubmit.io) – for handling form submissions  
-- Hosted on [GitHub Pages](#)
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **React**
 
-## 📸 Screenshots
+## 📂 Folder Structure
 
-![Portfolio Screenshot]() 
+📁 portfolio/
+├── 📁 public/
+├── 📁 src/
+│ ├── 📁 components/
+│ └── App.js
+├── index.html
+└── README.md
+
+
+## 📸 Preview
+
+<img width="1347" height="588" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/53951223-d2e5-4b73-b518-a5121c4dd9bb" />
+
+
+## 🧩 Projects Included
+
+- ✅ **To-Do List App** – A clean and interactive task manager.
+- 🔢 **Calculator** – A basic calculator with real-time operations.
+- 🍲 **Recipe Page** – A well-styled recipe interface with steps and ingredients.
 
 ## 📬 Contact
 
-Want to reach out or collaborate? Feel free to get in touch via the contact form on the site or connect with me on [LinkedIn](linkedin.com/in/olamidewahab) or [Twitter](https://x.com/WahabOlamide14)
+Feel free to reach out for collaboration, feedback, or just to connect!
 
-## 📁 Live Preview
-
-[👉 View Live Site]()
+- **Email:** [wahabolamide466@gmail.com]
+- **LinkedIn:** [your LinkedIn URL]
+- **Twitter:** [your Twitter handle]
 
 ---
 
-Thank you for checking out my portfolio!
+Thank you for checking out my portfolio! 😊
