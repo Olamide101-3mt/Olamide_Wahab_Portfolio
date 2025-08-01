@@ -4,12 +4,41 @@
   box-sizing: border-box;
 }
 
+body{
+  background: linear-gradient(to right,
+  #1E3A8A, #60A5FA);
+
+  /* Ensuring the gradient covers the entire viewport */
+
+  min-height: 100vh;
+  margin: 0;
+
+  color: #fff;
+  font-family: 'Inter', 'Roboto', sans-serif;
+
+  
+}
+
 .H-flex{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-right: 20px;
+  margin-left: 20px;
 
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  font-size: large;
 }
 
 .M-flex{
@@ -19,4 +48,251 @@
   align-items: center;
   height: 100vh;
   gap: 2rem;
+  font-size: x-large;
 }
+
+button{
+  padding: 1rem;
+  font-size: large;
+  border-radius: 10px;
+  background-color: #F97316;
+  border: 1px solid #F97316;
+  color: #fff;
+  
+}
+
+button::after {
+  content: "\2193";
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+h4{
+  text-align: center;
+  line-height: 2rem;
+}
+
+.name {
+  color: #F97316;
+}
+
+p{
+  text-align: justify;
+  align-items: center;
+  font-size: 20px;
+  line-height: 3rem;
+  margin-bottom: 100px;
+}
+
+.about{
+  /* margin-top: 100px; */
+}
+
+.about-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+.project-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+span{
+  color: #F97316;
+}
+
+.div-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #333;
+  padding: 50px;
+  margin: 30px 300px;
+  border-radius: 20px;
+  gap: 30px;
+}
+
+img{
+  border-radius: 10px;
+  
+}
+
+.color{
+  color: #F97316;
+}
+
+.edu{
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+}
+
+.fearure-project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+
+
+.image-class{
+  padding: 10px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #333;
+  padding: 30px;
+  gap: 1rem;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.footer{
+  text-align: center;
+}
+.down{
+  width: 100%;
+}
+
+.f-projects{
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 50px;
+}
+
+.f-div{
+  background-color: #333;
+  padding: 10px;
+  
+}
+
+.get-in-touch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 30px;
+  text-align: center;
+}
+
+.get-in-touch p {
+  text-align: center;
+}
+
+.message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+input[type="text"],
+  input[type="email"],
+  textarea, input[type="number"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fdfdfd;
+    margin-bottom: 1rem;
+  }
+
+  .footer{
+     display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px;
+  /* gap: 30px; */
+
+  }
+
+  .down{
+    /* text-align: center; */
+  }
+
+  .p-f{
+    text-align: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    h1{
+      font-size: large;
+    }
+    
+    .M-flex{
+      font-size: medium;
+      margin: 20px;
+    }
+
+    .about-flex{
+      font-size: small;
+      margin: 20px;
+    }
+
+    .div-flex{
+      margin: 30px 0px;
+    }
+
+    .fearure-project{
+      margin: 30px;
+    }
+
+    .f-projects{
+      flex-direction: column;
+    }
+    
+    .f-image{
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+
+.get-in-touch{
+  margin: 20px;
+}
+
+.skills{
+  margin: 20px;
+}
+  }
