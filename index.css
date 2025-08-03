@@ -1,0 +1,276 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(to right, #1E3A8A, #60A5FA);
+      min-height: 100vh;
+      margin: 0;
+      color: #fff;
+      font-family: 'Inter', 'Roboto', sans-serif;
+    }
+
+    .H-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 20px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: large;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 2rem;
+      cursor: pointer;
+      color: white;
+    }
+
+    nav.show {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      right: 0;
+      background: #1E3A8A;
+      height: 100vh;
+      width: 250px;
+      padding: 2rem;
+      z-index: 1000;
+      gap: 1.5rem;
+    }
+
+    nav .close-btn {
+      align-self: flex-end;
+      font-size: 2rem;
+      cursor: pointer;
+      color: white;
+      display: none;
+    }
+
+    .M-flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 2rem;
+      font-size: x-large;
+    }
+
+    button {
+      padding: 1rem;
+      font-size: large;
+      border-radius: 10px;
+      background-color: #F97316;
+      border: 1px solid #F97316;
+      color: #fff;
+    }
+
+    button::after {
+      content: "\2193";
+      font-size: 1.2rem;
+      margin-left: 10px;
+    }
+
+    h4 {
+      text-align: center;
+      line-height: 2rem;
+    }
+
+    .name {
+      color: #F97316;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 20px;
+      line-height: 3rem;
+      margin-bottom: 100px;
+    }
+
+    .about-flex,
+    .skills,
+    .get-in-touch,
+    .message {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .project-flex {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    span {
+      color: #F97316;
+    }
+
+    .div-flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      background-color: #333;
+      padding: 50px;
+      margin: 30px 300px;
+      border-radius: 20px;
+      gap: 30px;
+    }
+
+    img {
+      border-radius: 10px;
+    }
+
+    .color {
+      color: #F97316;
+    }
+
+    .edu {
+      display: flex;
+      justify-content: flex-start;
+      gap: 100px;
+    }
+
+    .fearure-project {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    hr {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .image {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .image-class {
+      padding: 10px;
+      background-color: #333;
+      border-radius: 10px;
+    }
+
+    .message form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      font-size: 1rem;
+      background-color: #fdfdfd;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      padding: 20px;
+    }
+
+    .down {
+      width: 100%;
+    }
+
+    .f-projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+      padding: 20px;
+    }
+
+    .f-div {
+      background-color: #333;
+      padding: 10px;
+    }
+
+    #Message{
+      margin-bottom: 30px;
+    }
+
+    @media screen and (max-width: 767px) {
+      .hamburger {
+        display: block;
+      }
+
+      nav {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #1E3A8A;
+        height: 100vh;
+        width: 250px;
+        padding: 2rem;
+        z-index: 1000;
+      }
+
+      nav a {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+      }
+
+      nav .close-btn {
+        display: block;
+      }
+
+      h1 {
+        font-size: large;
+      }
+
+      .M-flex {
+        font-size: medium;
+        margin: 20px;
+      }
+
+      .about-flex,
+      .skills,
+      .get-in-touch {
+        font-size: small;
+        margin: 20px;
+      }
+
+      .div-flex {
+        margin: 30px 20px;
+      }
+
+      .f-image,
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }

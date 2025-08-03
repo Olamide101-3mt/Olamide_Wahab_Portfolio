@@ -3,27 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olamide Wahab</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <title>Olamide Samuel Wahab</title>  
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <div class="H-flex">
-    <header id="Wos">
-        <h1>WOS</h1>
-    
-        
-      </header>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#about-me">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#">Contact</a>
+  <header class="H-flex" id="Wos">
+    <h1>WOS</h1>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <nav id="nav-menu">
+      <span class="close-btn" id="close-btn">&times;</span> 
+      <a href="#home">Home</a>
+      <a href="#about-me">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#Message">Contact</a>
     </nav>
-  </div>
-
+  </header>
   <div>
     <main class="M-flex" id="home">
       <div>
@@ -39,10 +34,10 @@
         <h4>Crafting modern, user-friendly web experiences <br>with HTML, CSS, and JavaScript. <br>I love turning ideas into responsive, <br>visually appealing designs.</h4>
       </div>
       <div>
-        <button>View My Work</button>
+        <button> <a href="#projects">View My Work</a></button>
       </div>
       <div>
-        <button>Get In Touch</button>
+        <button> <a href="#Message"> Get In Touch </a></button>
 
       </div>
       
@@ -101,28 +96,27 @@
 
   <div class="fearure-project" id="projects">
     <h1>Featured Projects</h1>
-    <p>A showcase of my recent work, featuring modern and responsive web development built with cutting-edge technologies and best practices </p>
+    <p>A showcase of my recent work, featuring modern and responsive web     development built with cutting-edge technologies and best practices </p>
     <hr>
     <div class="f-projects">
       <div>
-        <a href="https://a-to-do-list-gamma.vercel.app/" target="_blank"><img src="Screenshot (30).png" alt="" width="500px" height="300px" class="f-image">
+        <a href="https://a-to-do-list-gamma.vercel.app/" target="_blank"><img   src="Screenshot (30).png" alt="" width="500px" height="300px" class="f-image">
         </a>
         <div class="f-div">
          
           <h3>A To-Do List</h3>
-          <p>A clean and interactive task manager <br>built with JavaScript. Allows users to add,<br> complete, and delete tasks with real-time <br> updates for a seamless productivity experience. 
+          <p>A clean and interactive task manager <br>built with JavaScript.    Allows users to add,<br> complete, and delete tasks with real-time <br> updates for a seamless productivity experience. 
           </p>
         </div>
       </div>
       <div>
-         <a href="https://olamide101-3mt.github.io/Recipe-Page/
-" target="_blank">
+         <a href="https://olamide101-3mt.github.io/Recipe-Page/"        target="_blank">
            <img src="Screenshot (7).png" alt="" width="500px" height="300px">
         </a>
-        <Div class="f-div">
-          <h3>Recipe Page/h3>
+        <div class="f-div">
+          <h3>Recipe Page</h3>
           <p>A visually appealing recipe webpage <br>showcasing  a featured dish with ingredients and <br>step-by-step instructions. Designed <br>with a focus on layout, readability, <br>and responsive design. </p>
-        </Div>
+        </div>
       </div>
       <div>
         <a href="https://olamide101-3mt.github.io/Flexisaf-week8-deliverable/" target="_blank">
@@ -206,13 +200,13 @@
     </div>
 
     <div class="message">
-      <h1>Send a message</h1>
-      <form action="">
-        <input type="text" id="firstName" placeholder="First Name">
+      <h1 id="Message">  Send a message</h1>
+      <form action="https://formspree.io/f/mnndyavq" method="post">
+        <input type="text" id="firstName" placeholder="First Name" required>
         <input type="text" id="lastName" placeholder="Last Name"> <br>
-        <input type="text" id="email" placeholder="Email Address"> <br>
-        <input type="text" id="subject" placeholder="Subject"><br>
-        <input type="text" id="message" placeholder="Your message..."><br>
+        <input type="text" id="email" placeholder="Email Address" required> <br>
+        <input type="text" id="subject" placeholder="Subject" required><br>
+        <input type="text" id="message" placeholder="Your message..." required><br>
         <button>Send Message</button>
 
       </form>
@@ -224,7 +218,6 @@
       <span class="down">&copy; Olamide Wahab. All rights reserved</span>
       <span class="p-f"><a href="#Wos">Back to top</a><spanp> 
     </div>
-
-  </div>
+  
 </body>
 </html>
